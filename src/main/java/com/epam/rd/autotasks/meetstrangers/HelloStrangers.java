@@ -17,7 +17,7 @@ public class HelloStrangers {
         } else if (amountOfStrangersToMeet == 0) {
             System.out.println("Oh, it looks like there is no one here");
         } else {
-            //input.nextLine();
+            input.nextLine();
             for (int i = 0; i < amountOfStrangersToMeet; i++) {
                 String strangersNames = input.nextLine();
                 System.out.println("Hello, " + strangersNames);
